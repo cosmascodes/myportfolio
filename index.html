@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#8A2BE2">
+    <title>CosmasCodes</title>
+    <link rel="stylesheet" href="./css/styles.css">
+<link rel="shortcut icon" href="assets/engineer.png">
+</head>
+<body>
+<div id="splash">
+	<h1>Cosmas</h1>
+</div>
+<div id="body">
+   <header id="header">
+	<h1>Cosmas</h1>
+	<ul class="links">
+		<li data-section="home">Home</li>
+		<li data-section="about">About</li>
+		<li data-section="portfolio">Portfolio</li>
+		<li class="contact" data-section="contact">Contact</li>
+	</ul>
+	<img src="./assets/more.png" id="fullscreen" alt=""/>
+   </header>
+   <main>
+	<section id="home">
+		<h2>I'm Cosmas</h2>
+		<p>A <span class='txt-type' data-words='["Frontend developer","Mechanical Engineering Student","research led craftman"]' data-wait="3000"></span> <br/>passionate about the things of the web</p>
+		<button id="portfolio-btn">Portfolio</button>
+	</section>
+	<section id="about">
+		<div>		
+			<img src="assets/engineer.png" alt=""/>
+		</div>
+		<article>
+			<img src="assets/info.png"/>
+			<h2>About me</h2>
+			<p id="about-text"></p>
+<button id="read" class="read">Read more</button>
+		</article>
+	</section>
+	<section id="portfolio">
+		<img id="section-template" src="./assets/portfolio.png"/>
+		<h2>Portfolio</h2>
+		<div class="skillshare">
+			<p>I'm so passionate about web designs and always strive to build amazing experiences while ensuring the message hits home.</p>
+		<div class="skills-card">
+			<img src="./assets/candidate.png" alt=""/>
+			<span>I have basic skills in</span>
+			<ul>
+				<li>HTML & CSS</li>
+				<li>Vanilla JavaScript</li>
+				<li>React</li>
+			</ul>
+		</div>
+		<div class="skills-card">
+			<img src="./assets/tools.png" alt=""/>
+			<span>Tools I use</span>
+			<ul>
+				<li>Vs Code & Notepad</li>
+				<li>Git & Github</li>
+				<li>Node Cmd</li>
+			</ul>
+		</div>
+		<div>
+		</div>
+		</div>
+		<div class="work-header">
+			<h3>My work</h3>
+			<p>View all</p>
+		</div>
+		<div class="work">
+			<div class="card studemy"></div>
+			<div class="card bolshoi"></div>
+			<div class="card calc"></div>
+			<div class="card"></div>
+		</div>
+		<button id="hire">Hire me</button>
+	</section>
+	<section id="contact">
+		<img id="section-template" src="./assets/email.png"/>
+		<h2>Reach me</h2>
+		<p>If you like my work and have some project to work on, send me a direct message or contact me through social sites below. I'd love to hear your feedback</p>
+		<div class="contact-area">
+			<div id="follow">
+				<span>Follow me</span>
+				<p><img src="./assets/twitter.png"></p>
+				<p><img src="./assets/instagram.png"></p>
+				<p><img src="./assets/github-image.png"></p>
+				<p><img src="./assets/gmail.png"></p>
+			</div>
+			<form name ="contact" netlify>
+				<div>
+					<input type="telephone" placeholder="Phone">
+						<p>or</p>
+					<input type="email" placeholder="Email">
+				</div>
+				<input type="text" placeholder="Leave a message">
+				<input type="submit" value="send">
+			</form>
+		</div>
+		<div id="footer">
+			Copyright &copy Cosmas 2020
+		</div>
+
+	</section>
+   </main> 
+</div>
+
+	<script src="./js/app.js"></script>
+	<script src="./js/typing.js"></script>
+	
+</body>
+</html>
