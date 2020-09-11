@@ -45,29 +45,7 @@ portfolio.addEventListener('click',()=>{
 	let elem=document.getElementById("portfolio")
 	elem.scrollIntoView({behavior:"smooth"})
 })
-let fscreen = document.getElementById("fullscreen")
-fscreen.addEventListener('click',()=>{
-	let fuls=document.documentElement
-	if(fuls.requestFullscreen){
-		fuls.requestFullscreen();
-	}else if(fuls.mozRequestFullscreen){
-		fuls.mozRequestFullscreen();
-	}else if(fuls.webkitRequestFullscreen){
-		fuls.webkitRequestFullscreen();
-	}else if(fuls.msRequestFullscreen){
-		fuls.msRequestFullscreen();
-	}
 
-	/*if(fuls.exitFullscreen){
-		fuls.exitFullscreen();
-	}else if(fuls.mozCancelFullscreen){
-		fuls.mozCancelFullscreen();
-	}else if(fuls.webkitExitFullscreen){
-		fuls.webkitExitFullscreen();
-	}else if(fuls.msExitFullscreen){
-		fuls.msExitFullscreen();
-	}*/
-})
 
 window.onscroll= ()=>{
 if(document.body.scrollTop>50||document.documentElement.scrollTop>50){
